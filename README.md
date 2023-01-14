@@ -16,6 +16,7 @@
     - sudo gdisk /dev/xvdd
 ![](3.%20Creating%20Partitions%20.png)
 
+
 5. Partitions successfully Created 
 ![](4.%20created%20partitions%20.png)
 
@@ -24,8 +25,11 @@
     - sudo pvcreate /dev/xvdc1
     - sudo pvcreate /dev/xvdd1
 
+
 7. Creating Volume Group using the command : 
      sudo vgcreate webdata-vg /dev/xvdb1 /dev/xvdc1 /dev/xvdd1
+
+
 ![](6.%20Creating%20Volume%20Group%20.png)
 
 8. Creating Logical Vloumes using the command :
